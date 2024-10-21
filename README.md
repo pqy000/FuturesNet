@@ -130,8 +130,8 @@ If you find this repository useful for your research, please consider citing our
 ```bibtex
 @article{FuturesNet2024,
   title={FuturesNet: Capturing Patterns of Price Fluctuations in Domestic Futures Trading},
-  author={Author Names},
-  journal={Journal Name},
+  author={Qingyi Pan, Suyu Sun, Pei Yang, Jingyi Zhang*},
+  journal={Submitted to MDPI},
   year={2024},
 }
 ```
