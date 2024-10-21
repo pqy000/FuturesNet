@@ -46,48 +46,6 @@ You can install all the dependencies via the following command:
 pip install -r requirements.txt
 ```
 
-## 💻 How to Use
-
-### 1️⃣ Training the Model
-
-To train **FuturesNet** on your dataset, simply run the following command. Make sure that your data is preprocessed and stored in the appropriate directory.
-
-```bash
-python train.py --data_dir ./newdata --save_dir ./save
-```
-
-By default, the model checkpoints and logs will be stored in the specified `--save_dir`.
-
-### 2️⃣ Running Predictions
-
-Once the model is trained, you can run predictions on preprocessed data with:
-
-```bash
-python main.py --data_dir ./newdata --model_dir ./models/futuresnet_model
-```
-
-This command will output predictions to the directory specified.
-
-### 3️⃣ Data Preprocessing
-
-If your data is raw, you’ll first need to preprocess it. This can be done using:
-
-```bash
-python process_data.py --input_dir ./rawdata --output_dir ./newdata
-```
-
-Ensure that your data matches the input structure outlined in the paper for optimal results.
-
-### 4️⃣ Visualizing the Results 📊
-
-After training and evaluation, visualize the performance of **FuturesNet** with rich plots and metrics using the following script:
-
-```bash
-python visualize/plot_results.py --results_dir ./output
-```
-
-This will generate insightful plots of the predictions versus actual values, helping you to better interpret the model's accuracy.
-
 ## 📁 Dataset
 
 The dataset consists of **domestic futures trading data**. Please refer to our paper for detailed descriptions of the features and data structures. You can also use custom datasets, but ensure that they follow a similar format for seamless integration with the **FuturesNet** preprocessing pipeline.
