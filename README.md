@@ -88,16 +88,6 @@ python visualize/plot_results.py --results_dir ./output
 
 This will generate insightful plots of the predictions versus actual values, helping you to better interpret the model's accuracy.
 
-## 📊 Sample Results
-
-Here's an example of what you might expect when you visualize **FuturesNet** results:
-
-<p align="center">
-  <img src="path_to_your_visualization_image.png" alt="Visualization of FuturesNet Predictions" width="600"/>
-</p>
-
-This figure illustrates **predicted price fluctuations** compared to the **actual prices** over time. As you can see, **FuturesNet** closely follows both short-term spikes and long-term trends. 📈
-
 ## 📁 Dataset
 
 The dataset consists of **domestic futures trading data**. Please refer to our paper for detailed descriptions of the features and data structures. You can also use custom datasets, but ensure that they follow a similar format for seamless integration with the **FuturesNet** preprocessing pipeline.
@@ -131,13 +121,13 @@ If you find this repository useful for your research, please consider citing our
 @article{FuturesNet2024,
   title={FuturesNet: Capturing Patterns of Price Fluctuations in Domestic Futures Trading},
   author={Qingyi Pan, Suyu Sun, Pei Yang, Jingyi Zhang*},
-  journal={Submitted to MDPI},
+  journal={Submitted},
   year={2024},
 }
 ```
 
 ## 💬 Contact
 
-For any questions or issues, feel free to reach out via email at **author@example.com** or open an issue in the repository.
+For any questions or issues, feel free to reach out via email at **panqingyi19@gmail.com** or open an issue in the repository.
 
 Thank you for using **FuturesNet**! 🚀
